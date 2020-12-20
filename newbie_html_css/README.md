@@ -1,6 +1,6 @@
-# Profile card component 
+# 🎨 Profile card component 🎨
 
-## Details
+## 💻 Details
 - Mockup 
 - Tech stack: 
     - HTML 
