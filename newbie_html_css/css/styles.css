@@ -1,0 +1,79 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Questrial&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1499070303543-e9a60c679564?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+img {
+    border: 3px solid rgb(255, 255, 255); 
+    border-radius: 50%;
+    height: 95px;
+    width: 95px;
+
+}
+
+.overall-container {
+    box-shadow: 4px 4px 22px 0px rgba(50, 50, 50, 0.46);
+    border-radius: 12px;
+    background: white;
+}
+
+.upper-container {
+display:flex; 
+flex-direction: column;
+text-align: center;
+position: relative; 
+}
+
+.colored-bg {
+    background-image: linear-gradient(to right, rgb(40, 147, 156) , rgb(6, 100, 129));
+    border-radius: 12px 12px 0 0;
+    height: 150px;
+    width: 100%;
+}
+
+.profile-info img {
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+}
+
+.profile-info h3 {
+    margin-top: 60px;
+}
+
+.profile-info p {
+    margin-bottom: 20px;
+}
+ 
+.lower-container {
+    display:flex; 
+    justify-content: space-evenly;
+    min-width: 300px;
+    text-align: center; 
+    padding: 20px;
+}
+
+.stats h4 {
+    font-family: 'Abril Fatface', cursive;
+}
