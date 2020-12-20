@@ -10,5 +10,5 @@
 ## 📷 Mockup 
  <p>Click photo to increase image size.</p>
 <p float="left">
-  <img src="./images/mockup.png" width="500" />
+  <img src="./images/mockup.png" width="800" />
 </p>
