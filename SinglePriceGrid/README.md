@@ -12,3 +12,4 @@
 <p float="left">
   <img src="./images/priceGrid.png" width="800" />
 </p>
+<p>Color palette used: <a href="https://www.color-hex.com/color-palette/102894">Color Palette</a></p>
