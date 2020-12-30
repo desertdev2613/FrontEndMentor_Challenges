@@ -1,0 +1,83 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Josefin+Slab:wght@100&family=Maven+Pro&display=swap');
+* {
+    box-sizing: border-box;
+    margin:0; 
+    padding: 0; 
+}
+
+body {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Josefin Slab', serif;
+    line-height: 2;
+
+}
+
+h1, 
+h3 {
+    font-family: 'Castoro', serif;
+}
+
+.box-top, 
+.bottom-left, 
+.bottom-right {
+    padding:5rem;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.box-top {
+    background: #828883;
+}
+
+.box-top h1 {
+    color: #0d272e;
+    margin-bottom: 50px;
+}
+
+.box-top h3 {
+    margin-bottom: 25px;
+}
+
+.boxes-bottom {
+    display: flex;
+}
+
+.boxes-bottom h3 {
+    margin-bottom: 35px;
+}
+
+.bottom-left {
+background: #0d272e;
+flex:1;
+}
+
+.bottom-left button {
+    background: #828883;
+    border-radius: 12px;
+    border: none;
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    padding: 1rem;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.bottom-left button:hover {
+    box-shadow: -1px 15px 5px -1px rgba(0,0,0,0.75);
+}
+
+.bottom-right {
+    background: #b3622a;
+    flex:1;
+}
