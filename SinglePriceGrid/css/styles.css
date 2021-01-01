@@ -35,7 +35,7 @@ main {
 }
 
 .box-top {
-    background: #828883;
+    background: #828883; 
 }
 
 .box-top h1 {
@@ -60,8 +60,12 @@ background: #0d272e;
 flex:1;
 }
 
+.bottom-left span {
+font-size: 1rem;
+}
+
 .bottom-left button {
-    background: #828883;
+    background: #7b9c80;
     border-radius: 12px;
     border: none;
     color:#ffffff;
@@ -69,7 +73,7 @@ flex:1;
     font-size: 18px;
     outline: none;
     padding: 1rem;
-    margin-top: 15px;
+    margin-top: 100px;
     width: 200px;
 }
 
@@ -81,3 +85,17 @@ flex:1;
     background: #b3622a;
     flex:1;
 }
+
+
+/* Media queries */ 
+
+/* mobile device */ 
+@media only screen and (max-width: 806px) {
+    .boxes-bottom {
+      display:flex;
+      flex-direction: column;
+    }
+    .box-top {
+        margin-top: 550px;
+    }
+  }
